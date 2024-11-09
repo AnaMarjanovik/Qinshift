@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Dado Tea Lunch Special</h1>
+    <p>
+        <h3>Monday through Friday</h3>
+        <br>
+        11am - 3pm
+        <br>
+        $9.95 plus tax
+        <br>
+        <br>
+        Includes sandwich, snack, and drink.
+    </p>
+    <br>
+    
+    <p>
+        Order information
+        <br>
+        <form action="" method="POST">
+            <label for="name"><b>Name:</b></label>
+            <input type="text" name="name" id="name" />
+    </form>
+    <br>
+
+    <form action="" method="POST">       
+        <input type="radio" name="place" value="here" id="here" />
+        <label for="here">Here</label>
+        <br>
+        <input type="radio" name="place" value="To Go" id="to-go" />
+        <label for="to-go">To Go</label>    
+    </form>
+    </p>
+    
+    <br>
+
+    <p>
+        <h3>Sandwiches</h3> 
+        <h4><b>Monday</b></h4>
+        <form action="" method="POST">       
+            <input type="radio" name="monday" value="Tomato-mozarella" id="Tomato-mozarella" />
+            <label for="Tomato-mozarella">Tomato-mozarella</label>
+            <br>
+            <input type="radio" name="monday" value="Chicken salad" id="Chicken salad" />
+            <label for="Chicken salad">Chicken salad</label>    
+        </form>
+        <br>
+        <h4><b>Tuesday</b></h4>
+        <form action="" method="POST">       
+            <input type="radio" name="tuesday" value="Greek Salad Wrap" id="Greek Salad Wrap" />
+            <label for="Greek Salad Wrap">Greek Salad Wrap</label>
+            <br>
+            <input type="radio" name="tuesday" value="Toto Wrap" id="Toto Wrap" />
+            <label for="Toto Wrap">Toto Wrap</label>    
+        </form>
+        <br>
+        <h4><b>Wednesday</b></h4>
+        <form action="" method="POST">       
+            <input type="radio" name="Wednesday" value="Red Pepper Humus" id="Red Pepper Humus" />
+            <label for="Red Pepper Humus">Red Pepper Humus</label>
+            <br>
+            <input type="radio" name="Wednesday" value="Roasted Turkey" id="Roasted Turkey" />
+            <label for="Roasted Turkey">Roasted Turkey</label>    
+        </form>
+        <br>
+        <h4><b>Thursday</b></h4>
+        <form action="" method="POST">       
+            <input type="radio" name="Thursday" value="Carrot-Ginger Humus Wrap" id="Carrot-Ginger Humus Wrap" />
+            <label for="Carrot-Ginger Humus Wrap">Carrot-Ginger Humus Wrap</label>
+            <br>
+            <input type="radio" name="Thursday" value="Egg salad" id="Egg salad" />
+            <label for="Egg salad">Egg salad</label>    
+        </form>
+        <br>
+        <h4><b>Friday</b></h4>
+        <form action="" method="POST">       
+            <input type="radio" name="Friday" value="Dado Wrap" id="Dado Wrap" />
+            <label for="Dado Wrap">Dado Wrap</label>
+            <br>
+            <input type="radio" name="Friday" value="Tuna Salad" id="Tuna Salad" />
+            <label for="Tuna Salad">Tuna Salad</label>    
+        </form>
+        <hr>
+        <form action="" method="POST">      
+            <input type="checkbox" name="extra"
+            value="gluten" id="gluten" />
+            <label for="gluten">Gluten Free Bread (75e extra)</label>       
+        </form>
+    </p>
+    <br>
+    
+    <p>
+        <h3>Snack</h3>
+        <h4><b>Snacks</b></h4>
+        <form action="" method="POST">       
+            <input type="radio" name="snack" value="apple" id="apple" />
+            <label for="apple">Apple</label>
+            <br>
+            <input type="radio" name="snack" value="Banana" id="Banana" />
+            <label for="Banana">Banana</label>  
+            <br>
+            <input type="radio" name="snack" value="Potato Chips" id="Potato Chips" />
+            <label for="Potato Chips">Potato Chips</label>  
+        </form>
+    </p>
+    <br>
+    
+    <h3>Drink</h3>
+    <h4>Drinks</h4>
+    <form action="" method="POST">
+        <label for="drink"></label>
+        <select name="drink" id="drink">
+            <option value="hotblacktea" selected>Hot Black Tea - Keemun</option>
+            <option value="coca-cola">Coca-Cola</option>
+            <option value="Schweppes">Schweppes</option>
+        </select>
+    </form>
+    <hr>
+    <form action="" method="POST">      
+        <input type="checkbox" name="large-drink"
+        value="large-drink" id="large-drink" />
+        <label for="large-drink">Large drink (75e extra)</label>       
+    </form>
+    <br>
+    <form action="" method="POST">
+        <input type="submit" value="Place Order" />
+    </form>
+
+
+</body>
+</html>
