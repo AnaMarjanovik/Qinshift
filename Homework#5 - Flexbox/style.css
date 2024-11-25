@@ -1,0 +1,72 @@
+.part1{
+    display: flex;
+    flex-direction: row;
+}
+
+.two-yellow{
+    display: flex;
+    flex-direction: column;
+}
+
+.yellow1{
+    background-color: lightyellow;
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+}
+
+.yellow2{
+    background-color: lightyellow;
+    width: 50px;
+    height: 51px;
+    border: 5px solid black;
+}
+
+.red{
+    background-color: red;
+    width: 170px;
+    height: 110 px;
+    border: 5px solid black;
+}
+
+.part2{
+    display: flex;
+    flex-direction: row;
+}
+
+.yellow4-white{
+    display: flex;
+    flex-direction: column;
+}
+
+.blue{
+    background-color: lightblue;
+    width: 50px;
+    height: 49px;
+    border: 5px solid black;
+}
+
+.yellow3{
+    background-color: lightyellow;
+    width: 150px;
+    height: 49px;
+    border: 5px solid black;
+}
+
+.white{
+    background-color: white;
+    width: 10px;
+    height: 19px;
+    border: 5px solid black;
+}
+
+.yellow4{
+    background-color: yellow;
+    width: 10px;
+    height: 20px;
+    border: 5px solid black;
+}
+
+
+
+
